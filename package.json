@@ -1,0 +1,26 @@
+{
+  "name": "recipe-app",
+  "version": "1.0.0",
+  "description": "an app for finding recipes",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thembi-dali/Recipe-App.git"
+  },
+  "author": "Thembi Baleni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thembi-dali/Recipe-App/issues"
+  },
+  "homepage": "https://github.com/thembi-dali/Recipe-App#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.1",
+    "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "sass": "^1.26.10"
+  }
+}
